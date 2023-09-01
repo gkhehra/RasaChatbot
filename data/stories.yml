@@ -1,0 +1,166 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  
+  
+- story: privelege path
+  steps:
+  - intent: maximum_pl
+  - action: utter_maximum_pl 
+  
+- story: Competent Authorities path
+  steps:
+  - intent: competent_authority
+  - action: utter_competent_authority   
+  
+- story: Transfer path
+  steps:
+  - intent: transfer
+  - action: utter_transfer  
+
+- story: Combination path
+  steps:
+  - intent: combine
+  - action: utter_combine 
+
+- story: Rule Introduction path
+  steps:
+  - intent: rule_introduction
+  - action: utter_rule_introduction     
+  
+- story: Short Title Rule path
+  steps:
+  - intent: rule_short_title
+  - action: utter_rule_short_title
+  
+- story: Rules Commencement Date path
+  steps:
+  - intent: rules_commencement_date
+  - action: utter_rules_commencement_date
+  
+- story: Applicable Employees path
+  steps:
+  - intent: applicable_employees
+  - action: utter_applicable_employees
+  
+- story: Rule Title path
+  steps:
+  - intent: provide_rule_title
+  - action: utter_provide_rule_title
+  
+- story: Rule Commencement path
+  steps:
+  - intent: rules_commencement
+  - action: utter_rules_commencement
+  
+- story: Rules Exception path
+  steps:
+  - intent: exceptions_to_rules
+  - action: utter_exceptions_to_rules
+  
+- story: Application Notes path
+  steps:
+  - intent: application_notes
+  - action: utter_application_notes
+  
+- story: Doubt Resolution path
+  steps:
+  - intent: doubt_resolution
+  - action: utter_doubt_resolution
+  
+- story: Leave Approval Conditions path
+  steps:
+  - intent: leave_approval_conditions
+  - action: utter_leave_approval_conditions
+  
+- story: Foriegn Service path
+  steps:
+  - intent: foreign_service_leave
+  - action: utter_foreign_service_leave
+  
+- story: Delegation of Powers path
+  steps:
+  - intent: delegation_of_powers
+  - action: utter_delegation_of_powers
+  
+- story: Unauthorized Absence Reporting path
+  steps:
+  - intent: unauthorised_absence_reporting
+  - action: utter_unauthorised_absence_reporting
+  
+- story: Delegation of Powers path
+  steps:
+  - intent: delegation_of_powers
+  - action: utter_repeal_and_saving
+  
+- story: Carry Forward Leave Intro path
+  steps:
+  - intent: carry_forward_leave_intro
+  - action: utter_carry_forward_leave_intro
+  
+- story: Carry Forward Leave Department path
+  steps:
+  - intent: carry_forward_leave_department_change
+  - action: utter_carry_forward_leave_department_change
+  
+- story: Carry Forward Leave Termination path
+  steps:
+  - intent: carry_forward_leave_termination
+  - action: utter_carry_forward_leave_termination
+  
+- story: Carry Forward Leave Org Change Path
+  steps:
+  - intent: carry_forward_leave_org_change
+  - action: utter_carry_forward_leave_org_change
+  
+- story: Carry Forward Leave Other Govt. path
+  steps:
+  - intent: carry_forward_leave_other_govt
+  - action: utter_carry_forward_leave_other_govt
+  
+- story: Counting Past Service Benefits path
+  steps:
+  - intent: counting_past_service_benefits
+  - action: utter_counting_past_service_benefits
+  
+- story: Counting Past Military path
+  steps:
+  - intent: counting_past_military_service
+  - action: utter_counting_past_military_service
+  
+- story: Carry Forward path
+  steps:
+  - intent: carry_forward_pl
+  - action: utter_carry_forward_pl 
+
+- story: Leave conversion path
+  steps:
+  - intent: leave_conversion
+  - action: utter_leave_conversion   
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

@@ -1,0 +1,163 @@
+version: "3.1"
+
+intents:
+  - maximum_pl
+  - competent_authority
+  - transfer
+  - combine
+  - rule_introduction
+  - rule_short_title
+  - rules_commencement_date
+  - applicable_employees
+  - provide_rule_title
+  - rules_commencement
+  - exceptions_to_rules
+  - application_notes
+  - doubt_resolution
+  - leave_approval_conditions
+  - foreign_service_leave
+  - delegation_of_powers
+  - unauthorised_absence_reporting
+  - repeal_and_saving
+  - carry_forward_leave_intro
+  - carry_forward_leave_department_change
+  - carry_forward_leave_termination
+  - carry_forward_leave_org_change
+  - carry_forward_leave_other_govt
+  - counting_past_service_benefits
+  - counting_past_military_service
+  - carry_forward_pl
+  - leave_conversion
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+
+  utter_maximum_pl:
+  - text: "Maximum 5 years of leaves as per rule No. 2/4/2013-4FR/1082"
+
+  utter_competent_authority:
+  - text: "By the Head of Office in which he is employed, or if he himself is Head of the Office by his immediate superior as per rule No. 2/4/2013-4FR/1082"
+
+  utter_transfer:
+  - text: "No transfer of leaves is not allowed as per rule No. 2/4/2013-4FR/1082."
+
+  utter_combine:
+  - text: "Study leave may be combined with other kinds of leave but in no case shall the grant
+  of study leave in combination with leave, other than extraordinary leave, involve a total absence of
+  more than twenty eight months from the regular duties of the Government employee as per rule No. 2/4/2013-4FR/1082"
+
+  utter_rule_introduction:
+  - text: "The Haryana Civil Services (Leave) Rules, 2016, are a set of regulations that govern the terms and conditions for granting leave to Government employees of the State of Haryana as per rule No. 2/4/2013-4FR/1082."
+
+  utter_rule_short_title:
+  - text: "These rules short title is officially known as the Haryana Civil Services (Leave) Rules, 2016 as per rule No. 2/4/2013-4FR/1082."
+
+  utter_rules_commencement_date:
+  - text: "The Haryana Civil Services (Leave) Rules, 2016, came into force on 19th July, 2016 as per rule No. 2/4/2013-4FR/1082."
+  
+  utter_applicable_employees:
+  - text: "These rules apply to all Government employees of the State of Haryana, except for members of the All India Services and employees on deputation from the Centre, 
+  other State Governments, or other sources for a limited duration as per rule No. 2/4/2013-4FR/1082."
+
+  utter_provide_rule_title:
+  - text: "These rules are known as the Haryana Civil Services (Leave) Rules, 2016 as per rule No. 2/4/2013-4FR/1082."
+
+  utter_rules_commencement:
+  - text: "The rules have been in effect since 19th July, 2016 as per rule No. 2/4/2013-4FR/1082."
+
+  utter_exceptions_to_rules:
+  - text: "Members of the All India Services and employees on deputation are exempt from these rules as per rule No. 2/4/2013-4FR/1082."
+  
+  utter_application_notes:
+  - text: "- Note 1: These rules apply to the secretarial staff of the Haryana Legislative Assembly, as agreed by the Speaker of the Legislative Assembly.
+    - Note 2: Officers and employees of the Haryana Public Service Commission are covered by these rules, as agreed by the Chairman, Haryana Public Service Commission.
+    - Note 3: If there's uncertainty about the applicability of these rules, the decision rests with the Finance Department as per rule No. 2/4/2013-4FR/1082."
+
+  utter_doubt_resolution:
+  - text: "If you're unsure whether these rules apply to you, you can seek clarification from the Finance Department as per rule No. 2/4/2013-4FR/1082."
+
+  utter_leave_approval_conditions:
+  - text: "Leave approval by competent authorities requires prior approval from the Administrative Department under specific circumstances such as extra expenses to the Government, 
+  creation of posts, or reference to higher authorities as per rule No. 2/4/2013-4FR/1082."
+
+  utter_foreign_service_leave:
+  - text: "Leave for a Government employee on foreign service or deputation should be sanctioned by the competent authority of their parent department as per rule No. 2/4/2013-4FR/1082."
+
+  utter_delegation_of_powers:
+  - text: "The competent authorities may re-delegate their powers for leave sanctioning to gazetted officers at their headquarters, subject to certain conditions and restrictions. 
+    Copies of such orders need to be endorsed to relevant departments as per rule No. 2/4/2013-4FR/1082."
+
+  utter_unauthorised_absence_reporting:
+  - text: "In case of unauthorised absence for more than one week, the Head of Office should send a detailed report to the Head of Department. Group A and B employees' reports should be forwarded 
+  to the Administrative Department along with comments as per rule No. 2/4/2013-4FR/1082." 
+
+  utter_repeal_and_saving:
+  - text: "The Punjab Civil Services Rules, Volume I, Part I, along with provisions in Appendices 12, 17, and 20 of the Punjab Civil Services Rules, Volume I, Part II, and corresponding rules in force before 
+  these rules came into effect have been repealed. Orders and actions under the repealed rules are deemed to be made under corresponding provisions of these rules. as per rule No. 2/4/2013-4FR/1082."
+
+  utter_carry_forward_leave_intro:
+  - text: "Chapter III of the rules deals with the carry forward of leave and benefits of past service for Government employees as per rule No. 2/4/2013-4FR/1082."
+
+  utter_carry_forward_leave_department_change:
+  - text: "When an employee moves from one department to another within Haryana Government, the benefit of carrying forward leave and counting past service can be availed, provided the application for the
+  new appointment was submitted through the proper channel. Interruptions due to different stations are formally condoned for a period not exceeding the journey duration. as per rule No. 2/4/2013-4FR/1082."
+
+  utter_carry_forward_leave_termination:
+  - text: "Employees terminated due to post abolition or lack of vacancy, or those invalidated from service due to being permanently unfit, can have their past service included for earned leave calculation, if 
+  the break in service is condoned by the competent authority. This provision doesn't apply to surplus employees adjusted to other Haryana Government departments as per rule No. 2/4/2013-4FR/1082."
+
+  utter_carry_forward_leave_org_change:
+  - text: "When an employee moves between departments and organizations within Haryana Government or vice versa, the concession for carrying forward leave isn't applicable. However, earned leave encashment benefit is 
+  available upon resignation, and half-pay leave at credit gets forfeited. Counting of past service for earned leave computation is permitted if the application was submitted through the proper channel as per 
+  rule No. 2/4/2013-4FR/1082."
+
+  utter_carry_forward_leave_other_govt:
+  - text: "When an employee moves from another State Government or Central Government to a department of Haryana Government, the benefit of carrying forward leave isn't granted. However, 
+  counting of past service is taken into account for calculating length of service, provided the application was submitted through the proper channel. as per rule No. 2/4/2013-4FR/1082."
+
+  utter_counting_past_service_benefits:
+  - text: "Counting past service benefits employees by enhancing earned leave calculation. It allows for a more accurate representation of an employee's overall service tenure as per rule No. 2/4/2013-4FR/1082."
+
+  utter_counting_past_military_service:
+  - text: "Counting past military service positively affects earned leave and casual leave eligibility. It's also applicable for ex-servicemen joining Haryana Government departments.
+  as per rule No. 2/4/2013-4FR/1082."
+
+  utter_carry_forward_pl:
+  - text: "On subsequent appointment fro m one depart ment to another of Haryana Government,
+  the benefit of carry forward of leave and/or counting of past service for the purpose of leave shall be
+  admissible provided the application for the post of subsequent appointment was submitted through
+  proper channel. In such case if the Government employee is required to resign from service before
+  taking up the subsequent appointment, such resignation shall not result in the lapse of the leave to
+  his credit and his service shall be treated continue for the purpose of leave as per rule No. 2/4/2013-4FR/1082"
+
+  utter_leave_conversion:
+  - text: "The authority competent to grant leave to a Government employee may convert leave from one kind to another as per rule No. 2/4/2013-4FR/1082"
+
+  utter_greet:
+  - text: "Hello theek hoon"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a chatbot."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,243 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: maximum_pl
+  examples: |
+    - Maximum number of (Privelege leaves) allowed?
+    - Total number of (Privelege leaves) allowed at once?
+
+- intent: competent_authority
+  examples: |
+    - Who is competent authority to approve leaves?
+    - Who is authorize to approve leaves?
+
+- intent: transfer
+  examples: |
+    - Is transfer of leaves allowed?
+    - Can we transfer one leave to another?
+
+- intent: combine
+  examples: |
+    - Can we take multiple leaves in combination?
+    - Are we allowed to take different leaves combined?          
+
+- intent: rule_introduction
+  examples: |
+    - What are the Haryana Civil Services (Leave) Rules, 2016?    
+    - Tell me about the rules for leave in Haryana Civil Services.
+
+- intent: rule_short_title
+  examples: |
+    - What is the short title of these rules?
+    - How should I refer to the Haryana Civil Services (Leave) Rules, 2016?
+
+- intent: rules_commencement_date
+  examples: |
+    - When did the Haryana Civil Services (Leave) Rules, 2016 come into effect?
+    - What is the commencement date of these rules?
+
+- intent: applicable_employees
+  examples: |
+    - Who is covered by the Haryana Civil Services (Leave) Rules, 2016?
+    - Do these rules apply to all Government employees?
+    
+- intent: provide_rule_title
+  examples: |
+    - What is the short title of the rules?
+    - Please provide the name of these rules.  
+    
+- intent: rules_commencement
+  examples: |
+    - When did these rules come into force?
+    - From which date are these rules applicable?
+    - Can you tell me the commencement date of these rules?
+
+- intent: exceptions_to_rules
+  examples: |
+    - Who is exempt from these rules?
+    - Are members of All India Services covered by these rules?
+    - Do these rules apply to employees on deputation?
+
+- intent: application_notes
+  examples: |
+    - Can you explain the application notes mentioned?
+    - What is the significance of Note 1?
+    - Could you elaborate on the application of rules to secretarial staff?
+
+- intent: doubt_resolution
+  examples: |
+    - How can I know if these rules apply to me?
+    - What should I do if I'm uncertain about the applicability of these rules?
+    - Who can help me decide if I'm covered by these rules?
+      
+- intent: leave_approval_conditions
+  examples: |
+    - What are the conditions for granting leave by competent authorities?
+    - When is prior approval required from the Administrative Department for leave?
+    - Can you explain the circumstances under which leave requires reference to higher authorities?
+
+- intent: foreign_service_leave
+  examples: |
+    - How is leave for a Government employee on foreign service sanctioned?
+    - Who can approve leave for a Government employee on deputation?
+    - Can you tell me about the procedure for sanctioning leave during foreign service?
+
+- intent: delegation_of_powers
+  examples: |
+    - Can the authorities competent to sanction leave delegate their powers?
+    - How can the powers for leave approval be re-delegated?
+    - Tell me about the re-delegation of powers for leave sanctioning.
+
+- intent: unauthorised_absence_reporting
+  examples: |
+    - What should be done in case of unauthorised absence of a Government employee?
+    - How should the Head of Office handle prolonged absence without authorization?
+    - Can you explain the reporting process for unauthorised absence?
+
+- intent: repeal_and_saving
+  examples: |
+    - Are there any rules that have been repealed by the Haryana Civil Services (Leave) Rules, 2016?
+    - What happened to the Punjab Civil Services Rules and related provisions?
+    - Tell me about the rules that have been repealed and the provisions that have been saved.
+
+
+- intent: carry_forward_leave_intro
+  examples: |
+    - Can you explain the rules for carrying forward leave or past service?
+    - How does the carry forward of leave work in Haryana Government?
+    - Tell me about the provisions related to past service in leave calculation.
+
+- intent: carry_forward_leave_department_change
+  examples: |
+    - What happens to leave when a government employee changes departments?
+    - How is leave carried forward when moving from one Haryana Government department to another?
+    - Can you explain the benefits of past service when changing departments?
+
+- intent: carry_forward_leave_termination
+  examples: |
+    - What happens to leave when an employee is terminated or invalidated?
+    - How is leave calculated for an employee terminated due to post abolition?
+    - Can you explain the treatment of leave for employees who are invalidated from service?
+
+- intent: carry_forward_leave_org_change
+  examples: |
+    - What happens to leave when an employee moves from a department to an organization under Haryana Government or vice versa?
+    - Can you explain the rules for carry forwarding leave when switching between departments and organizations?
+    - How is leave managed when an employee transitions between different entities under Haryana Government?
+
+- intent: carry_forward_leave_other_govt
+  examples: |
+    - How does carry forward of leave work when someone moves from another State Government to Haryana Government?
+    - Can you tell me about the leave rules for employees transferring from the Central Government to the Haryana Government?
+    - What's the procedure for leave carry forward when moving from another government to Haryana Government?
+
+- intent: counting_past_service_benefits
+  examples: |
+    - What benefits do employees gain from counting their past service in terms of leave?
+    - Can you explain how counting past service affects earned leave calculation?
+    - Tell me about the advantages of considering past service for leave calculation.
+
+- intent: counting_past_military_service
+  examples: |
+    - How does counting past military service impact earned leave and casual leave eligibility?
+    - Can you explain the benefits of including past military service for leave calculation?
+    - Tell me about the rules for counting military service when calculating leave.
+
+- intent: carry_forward_pl
+  examples: |
+    - Can we carry forward Privelege leave?
+    - Can we further carry forward leaves?    
+
+- intent: leave_conversion
+  examples: |
+    - Can we convert one leave into another kind of leave? 
+    - Can we change or update one leave into another kind of leave?      
